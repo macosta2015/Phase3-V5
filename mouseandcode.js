@@ -1,4 +1,4 @@
-// August 15th of 2024
+// August 16th of 2024
 
 const puppeteer = require('puppeteer');
 require('dotenv').config();
@@ -487,6 +487,35 @@ const extensionleftANDright = require('./components/extensionleftANDright.js'); 
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
         await selectOkButton(newPage);
+
+
+
+
+        // Select sketch to click or unclick, good code to select and unselect
+        console.log("TEST ASSEMBLY ");
+
+        await waitForEnter();
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        // Selecting the tabs ASSEMBLY
+        ////////////////////////////////////////////////////////////////////////////
+
+
+
+        const selectorTabs7 = 'tab-list-item.os-tab-bar-tab[data-id="f7c6d76366e44e0ca33c94b6"][data-icon-src="partstudio"]';
+        console.log("AS ");
+        console.log(''); // This logs an empty line, effectively skipping a line
+        await waitForEnter();
+
+        try {
+            await extensionleftANDright(newPage, selectorTabs7);
+        } catch (error) {
+            console.error("Failed to execute extensionleftANDright:", error);
+        }
+        await waitForEnter();
+        ////////////////////////////////////////////////////////////////////////////
+
+
+
 
 
 
