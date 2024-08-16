@@ -18,13 +18,17 @@ const selectOkButton = require('./components/selectOkButton.js');
 const assemblySelectButton = require('./components/assemblySelectButton.js');
 const { performRightClickOptionByTitle } = require('./components/performRightClickOptionByTitle.js');
 const waitForEnter = require('./components/waitForEnter.js');
+const extensionleftANDright = require('./components/extensionleftANDright.js');  // Ensure the path is correct
 require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum number of listeners
 
 
 
 //////////////////
-const extensionleftANDright = require('./components/extensionleftANDright.js');  // Ensure the path is correct
+const extensionleftANDrightAssembly = require('./components/extensionleftANDrightAssembly.js');  // Ensure the path is correct
 /////////////////
+
+
+
 
 
 (async () => {
@@ -33,6 +37,9 @@ const extensionleftANDright = require('./components/extensionleftANDright.js'); 
         // Launch browser and navigate to the document
         const newPage = await launchBrowserAndNavigateToDocument(); // Ensure this returns a newPage object
 
+
+
+        await waitForEnter();
 
 
 
@@ -495,27 +502,25 @@ const extensionleftANDright = require('./components/extensionleftANDright.js'); 
         console.log("TEST ASSEMBLY ");
 
         await waitForEnter();
+
+
+
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         // Selecting the tabs ASSEMBLY
         ////////////////////////////////////////////////////////////////////////////
-
-
-
-        const selectorTabs7 = 'tab-list-item.os-tab-bar-tab[data-id="f7c6d76366e44e0ca33c94b6"][data-icon-src="partstudio"]';
+        const selectorTabs8 = 'tab-list-item.os-tab-bar-tab[data-id="f7c6d76366e44e0ca33c94b6"][data-icon-src="assembly"]';
+        // const selectorTabs8 = 'tab-list-item.os-tab-bar-tab[data-id="f7c6d76366e44e0ca33c94b6"][data-icon-src="partstudio"]';
         console.log("AS ");
         console.log(''); // This logs an empty line, effectively skipping a line
         await waitForEnter();
 
         try {
-            await extensionleftANDright(newPage, selectorTabs7);
+            await extensionleftANDrightAssembly(newPage, selectorTabs8);
         } catch (error) {
-            console.error("Failed to execute extensionleftANDright:", error);
+            console.error("Failed to execute extensionleftANDrightAssembly:", error);
         }
         await waitForEnter();
         ////////////////////////////////////////////////////////////////////////////
-
-
-
 
 
 
