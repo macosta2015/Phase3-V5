@@ -1,4 +1,4 @@
-// August 16th of 2024
+// August 17th of 2024
 
 const puppeteer = require('puppeteer');
 require('dotenv').config();
