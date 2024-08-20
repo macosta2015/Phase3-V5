@@ -543,32 +543,6 @@ const extensionleftANDrightAssembly = require('./components/extensionleftANDrigh
 
 
 
-
-
-
-
-
-        //Seecting the tabs EXTENSIONS ORIGINAL
-        ////////////////////////////////////////////////////////////////////////////
-        // const selectorTabs2 = 'tab-list-item.os-tab-bar-tab[data-id="e30941a9804ec64336179006"][data-icon-src="partstudio"]';
-        // // const selectorTabs2 = 'tab-list-item.os-tab-bar-tab[data-id="f7c6d76366e44e0ca33c94b6"][data-icon-src="assembly"]';
-        // console.log("extensionleftANDright ");
-        // console.log(''); // This logs an empty line, effectively skipping a line
-        // await waitForEnter();
-        // await extensionleftANDright(newPage, selectorTabs2);
-        // console.log("extensionleftANDright");
-        // await waitForEnter();
-        ////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
         // ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         // const extensionID = 'div[data-id="tmaNxu0Qh1QsjhVV"]'; // Replace with the appropriate selector
         // const extensionTitle = 'Sketch 3'; // Replace with the desired title
