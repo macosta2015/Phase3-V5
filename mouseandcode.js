@@ -1,4 +1,4 @@
-// August 20th of 2024
+// August 21th of 2024
 
 const puppeteer = require('puppeteer');
 require('dotenv').config();
@@ -574,9 +574,6 @@ const extensionleftANDrightAssembly = require('./components/extensionleftANDrigh
         // const title21 = '(3) Extrude Sketch(1.03)'; // Replace with the desired title
         // const editOptions21 = await performRightClickOptionByTitle(newPage, selector7, title21);
         // editIntoSketchFunction(editOptions21, newPage);
-
-
-
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
