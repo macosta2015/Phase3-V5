@@ -1,4 +1,4 @@
-// August 22th of 2024
+// August 22th of 2024 
 
 const puppeteer = require('puppeteer');
 require('dotenv').config();
@@ -19,9 +19,10 @@ const assemblySelectButton = require('./components/assemblySelectButton.js');
 const { performRightClickOptionByTitle } = require('./components/performRightClickOptionByTitle.js');
 const waitForEnter = require('./components/waitForEnter.js');
 const extensionleftANDright = require('./components/extensionleftANDright.js');  // Ensure the path is correct
+const extensionleftANDrightAssembly = require('./components/extensionleftANDrightAssembly.js');  // Ensure the path is correct
+
 require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum number of listeners
 //////////////////
-const extensionleftANDrightAssembly = require('./components/extensionleftANDrightAssembly.js');  // Ensure the path is correct
 /////////////////
 
 
