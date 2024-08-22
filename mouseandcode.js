@@ -1,4 +1,4 @@
-// August 21th of 2024
+// August 22th of 2024
 
 const puppeteer = require('puppeteer');
 require('dotenv').config();
@@ -320,9 +320,6 @@ const extensionleftANDrightAssembly = require('./components/extensionleftANDrigh
         await selectOkButton(newPage);
         console.log("HHHHHHHHHHH");
         console.log(''); // This logs an empty line, effectively skipping a line
-
-
-
 
 
 
@@ -828,7 +825,6 @@ const extensionleftANDrightAssembly = require('./components/extensionleftANDrigh
         await waitForEnter();
         ////////////////////
         console.log("SSSSSSSSSSSSSSSSS")
-
 
 
 
