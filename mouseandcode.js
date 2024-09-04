@@ -922,7 +922,7 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
         console.log('Move the mouse over the page to see the coordinates...');
         await new Promise(resolve => setTimeout(resolve, 3000));
 
-        console.log('Script completed successfully. thank you for your help!!')
+        console.log('Script completed successfully. thank you for your help!!!')
         console.log('LFG')
 
 
