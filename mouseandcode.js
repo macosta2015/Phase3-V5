@@ -927,6 +927,5 @@ require('events').EventEmitter.defaultMaxListeners = 20; // Set the maximum numb
 
     } catch (error) {
         console.error('An error occurred:', error);
-        console.log('hello')
     }
 })();
